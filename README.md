@@ -6,7 +6,7 @@
 
 
 
-
+```bash
 [使用说明]
 python getshell.py -k xx.txt -f aa.txt
 -k 调用killrepeat函数  去掉xx.txt内的重复项
@@ -94,3 +94,4 @@ pypy我用的1.8版本，较为稳定
 (30) 09.13 17:10 修复了linux下的bug,是这样的，linux下pypy如果要想多进程写文件必须在要多进程函数内开启文件流，并且闭合. 在linux python下没有这个限制
 
 (30) 10.26 中午头,  突然发现linux并发竟然不如win的伪多线程快，上下文切换阻塞严重，研究了一下  原来是踩中了python的天坑...  while True改成while 1 就好了
+```
